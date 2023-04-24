@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - returns alphabets
@@ -8,11 +7,11 @@
  */
 int main(void)
 {
-int ch = 'a';
-while (ch <= '2')
+char alp [26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i = 0; i < 26: i++)
 {
-putchar(ch);
-ch++;
+putchar(alp[i]));
 }
 putchar('\n');
 return (0);
