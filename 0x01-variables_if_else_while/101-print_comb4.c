@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Program that prints all possible different combinations of three digits
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
